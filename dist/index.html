@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ketarot</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main id=app>
+
+  <!--p>Please checkout the newer version of this; <a target="_top" href="https://codepen.io/simeydotme/pen/abYWJdX">https://codepen.io/simeydotme/pen/abYWJdX</a></p-->
+
+  <!--h1>Tarot Saucé</h1-->
+<style>
+//div.gallery {
+//  margin: 5px;
+//  border: 0px;
+//  float: left;
+//  width: 180px;
+//}
+
+//div.gallery img {
+//  width: 100%;
+//  height: auto;
+//}
+
+</style>
+  
+  <!--section class="cards">
+    <div class="three-d-wrapper">
+      <div class="card2 c13 animated"></div>
+    </div>
+    <div class="three-d-wrapper">
+      <div class="card c13 animated"></div>
+    </div>
+    <div class="three-d-wrapper">
+      <div class="card c13m animated"></div>
+    </div>
+  </section-->
+
+<h1 id="titre"></h1>
+<div id="demo"></div>
+<script>
+
+const queryString = window.location.search;
+console.log(queryString);
+
+const urlParams = new URLSearchParams(queryString);
+
+states_dictionary={ 
+     "L'enfant":'01',
+     "Le medecin":'02',
+     "Le courtisant":'03',
+     "La tempete":'04',
+     "L'echange":'05',
+     "La medisance":'06',
+     "L'abondance":'07',
+     "Le chariot":'08',
+     "Le Lord":'09',
+     "Le secret":'10',
+     "La perte":'11',
+     "La solitude":'12',
+     "La panthere":'13',
+     "Le contrat":'14',
+     "Le commandement":'15',
+     "L'offre":'16',
+     "La vanite":'17',
+     "Bonne nouvelle":'18',
+     "La rivale":'19',
+     "Le choix":'20',
+     "L'attente":'21',
+     "La maladie":'22',
+     "Le labyrinthe":'23',
+     "La justice":'24',
+     "La neige":'25',
+     "Le monde":'26',
+     "La mort":'27',
+     "La Lady":'28',
+     "La famille":'29',
+     "La rencontre":'30',
+     "L'inconscience":'31',
+     "La spiritualite":'32',
+     "Le travail":'33',
+     "Le manoir":'34',
+     "Le voyage":'35',
+     "L'amitie":'36',
+     "La moisson":'37',
+     "Le fanal":'38',
+     "L'illusion":'39',
+     "L'etude":'40',
+     "La sorciere":'41',
+     "Le roi pendu":'42',
+     "La carte blanche":'43',
+     "Le chaos":'44',
+     "Mauvaise nouvelle":'45',
+     "Le kemion":'46',
+     "Le grand gris":'47',
+     "Le Boudah de la 5D":'48',
+     "La guerre galactique":'49',
+     "Charogne le Grand":'50',
+     "Nounours le sage":'51',
+     "Gorg le vert":'52',
+     "La Division":'53',
+     "Le Minotaure":'54',
+     "La Pikouze":'55',
+     "Le Ninja":'56',
+     "L'assemblee":'57',
+     'Le Cavalier':'58',
+     "I'll be right here":'59',
+     "Le piscicologue":'60',
+     "L'Hallowigne":'61',
+     'Steve':'62',
+     'Bertrand':'63',
+     'La Fragilité':'64',
+     'Le Cis-clope':'65',
+     'Une Vieille Habitude':'66'}
+
+states_dictionary2={ 
+     '01':"L'enfant",
+     '02':"Le medecin",
+     '03':"Le courtisant",
+     '04':"La tempete",
+     '05':"L'echange",
+     '06':"La medisance",
+     '07':"L'abondance",
+     '08':"Le chariot",
+     '09':"Le Lord",
+     '10':"Le secret",
+     '11':"La perte",
+     '12':"La solitude",
+     '13':"La panthere",
+     '14':"Le contrat",
+     '15':"Le commandement",
+     '16':"L'offre",
+     '17':"La vanite",
+     '18':"Bonne nouvelle",
+     '19':"La rivale",
+     '20':"Le choix",
+     '21':"L'attente",
+     '22':"La maladie",
+     '23':"Le labyrinthe",
+     '24':"La justice",
+     '25':"La neige",
+     '26':"Le monde",
+     '27':"La mort",
+     '28':"La Lady",
+     '29':"La famille",
+     '30':"La rencontre",
+     '31':"L'inconscience",
+     '32':"La spiritualite",
+     '33':"Le travail",
+     '34':"Le manoir",
+     '35':"Le voyage",
+     '36':"L'amitie",
+     '37':"La moisson",
+     '38':"Le fanal",
+     '39':"L'illusion",
+     '40':"L'etude",
+     '41':"La sorciere",
+     '42':"Le roi pendu",
+     '43':"La carte blanche",
+     '44':"Le chaos",
+     '45':"Mauvaise nouvelle",
+     '46':"Le kemion",
+     '47':"Le grand gris",
+     '48':"Le Boudah de la 5D",
+     '49':"La guerre galactique",
+     '50':"Charogne le Grand",
+     '51':"Nounours le sage",
+     '52':"Gorg le vert",
+     '53':"La Division",
+     '54':"Le Minotaure",
+     '55':"La Pikouze",
+     '56':"Le Ninja",
+     '57':"L'assemblee",
+     '58':'Le Cavalier',
+     '59':"I'll be right here",
+     '60':"Le piscicologue",
+     '61':"L'Hallowigne",
+     '62':'Steve',
+     '63':'Bertrand',
+     '64':'La Fragilité',
+     '65':'Le Cis-clope',
+     '66':'Une Vieille Habitude'}
+
+var viewer = urlParams.get('viewer').toLowerCase()
+
+//let text = "<h1>Collection de " + viewer + "</h1>";
+document.getElementById("titre").innerHTML = "<h1>Collection de " + viewer + "</h1>";
+let text =  '<section class="cards">';
+
+console.log("File:: ./collectioninfo/"+ viewer +".json")
+
+async function Fetching()
+{
+    const response = await fetch("./collectioninfo/"+ viewer +".json");
+    const jsonData = await response.json();
+    //console.log(jsonData);
+    console.log(jsonData["La mort"]);
+    //console.log(Object.keys(jsonData));
+
+  console.log("BON MATIN");
+  console.log(Object.keys(states_dictionary2).length);
+  for (let i = 1; i <= 66; i++) {
+
+    if (i < 10) {
+      znumber = '0' + i;
+    } else {
+      znumber = i.toString();
+    }
+
+    console.log("BONJOUR");
+    if (jsonData[states_dictionary2[znumber]] !== undefined) { 
+        console.log("Section 1");
+        if (jsonData[states_dictionary2[znumber]][2] > 0) {
+            console.log("Section 1.1");
+            text += '<div class="three-d-wrapper">';
+            text += '<div class="card c' + znumber + 'm animated"></div>'
+            text += '</div>';
+        }
+        else if (jsonData[states_dictionary2[znumber]][1] > 0) {
+            console.log("Section 1.2");
+            text += '<div class="three-d-wrapper">';
+            text += '<div class="card c' + znumber + ' animated"></div>'
+            text += '</div>';
+        }
+        else {
+            console.log("Section 1.3");
+            text += '<div class="three-d-wrapper">';
+            text += '<div class="card2 c' + znumber + ' animated"></div>'
+            text += '</div>';
+        }
+    }
+    else {
+        console.log("Section 2");
+        text += '<div class="three-d-wrapper">';
+        text += '<div class="card2 cback animated"></div>'
+        text += '</div>';
+    }
+
+  }
+  text +=  '</section>';
+  document.getElementById("demo").innerHTML = text;
+}
+Fetching();
+
+</script>
+
+
+
+
+  <style class="hover"></style>
+
+  <!--section class="demo">
+    <div class="card"></div>
+    <span class="operator">+</span>
+    <div class="card"><span>color-dodge</span></div>
+    <span class="operator">+</span>
+    <div class="card"><span>color-dodge</span></div>
+  </section-->
+
+</main>
+
+<!--section class="promo">
+  <p>
+    <a target="_top" href="https://codepen.io/simeydotme/pen/abYWJdX">
+      View Version 2, much improved here<br>
+      <img src="https://assets.codepen.io/13471/internal/screenshots/pens/abYWJdX.custom.png?version=1674760356" alt="">
+    </a>
+  </p>
+</section-->
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
