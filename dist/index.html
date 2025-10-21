@@ -195,6 +195,7 @@ console.log("File:: ./collectioninfo/"+ viewer +".json")
 
 async function Fetching()
 {
+    //const response = await fetch("./collectioninfo/"+ viewer +".json");
     const response = await fetch("./collectioninfo/"+ viewer +".json");
     const jsonData = await response.json();
     //console.log(jsonData);
