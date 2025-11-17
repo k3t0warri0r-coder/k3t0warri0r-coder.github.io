@@ -49,46 +49,18 @@ async function Fetching()
     //console.log(Object.keys(jsonData));
 
   console.log("BON MATIN");
-  console.log(Object.keys(states_dictionary2).length);
+  text = '<p></p><table border="1" style="border-collapse: collapse; width: 100%;"><tbody>'
+  text += '<tr><td style="width: 20%; text-align: right;"><strong>Position</strong></td><td style="width: 20%; text-align: center;">'
+  text += '<strong>Saucier/&egrave;re</strong></td><td style="width: 20%; text-align: center;"><strong>Collection totale</strong></td>'
+  text += '<td style="width: 20%; text-align: center;"><strong>Foils</strong></td><td style="width: 20%; text-align: center;"><strong>Mythiques</strong></td></tr>'
   for (let i = 1; i <= 50; i++) {
-
-    if (i < 10) {
-      znumber = '0' + i;
-    } else {
-      znumber = i.toString();
-    }
-
-    console.log("BONJOUR");
-    if (jsonData[states_dictionary2[znumber]] !== undefined) { 
-        console.log("Section 1");
-        if (jsonData[states_dictionary2[znumber]][2] > 0) {
-            console.log("Section 1.1");
-            text += '<div class="three-d-wrapper">';
-            text += '<div class="card c' + znumber + 'm animated"></div>'
-            text += '</div>';
-        }
-        else if (jsonData[states_dictionary2[znumber]][1] > 0) {
-            console.log("Section 1.2");
-            text += '<div class="three-d-wrapper">';
-            text += '<div class="card c' + znumber + ' animated"></div>'
-            text += '</div>';
-        }
-        else {
-            console.log("Section 1.3");
-            text += '<div class="three-d-wrapper">';
-            text += '<div class="card2 c' + znumber + ' animated"></div>'
-            text += '</div>';
-        }
-    }
-    else {
-        console.log("Section 2");
-        text += '<div class="three-d-wrapper">';
-        text += '<div class="card2 cback animated"></div>'
-        text += '</div>';
-    }
-
+    text += '<tr><td style="width: 20%; text-align: right;">' + i.toString() + '</td>'
+    text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Username"] + '</td>'
+    text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Collection"].toString() + '</td>'
+    text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Collection-Foils"].toString() + '</td>'
+    text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Collection-Mythics"].toString() + '</td></tr>'
   }
-  text +=  '</section>';
+  text +=  '</tbody></table>';
   document.getElementById("demo").innerHTML = text;
 }
 Fetching();
