@@ -115,7 +115,12 @@ states_dictionary={
      'Bertrand':'63',
      'La Fragilité':'64',
      'Le Cis-clope':'65',
-     'Une Vieille Habitude':'66'}
+     'Une Vieille Habitude':'66',
+     'Le Chat-eau':'67',
+     'Le Pirate':'68',
+     'Cathulhu':'69',
+     'Seizenip':'70',
+     'Vingtnip':'71'}
 
 states_dictionary2={ 
      '01':"L'enfant",
@@ -183,7 +188,12 @@ states_dictionary2={
      '63':'Bertrand',
      '64':'La Fragilité',
      '65':'Le Cis-clope',
-     '66':'Une Vieille Habitude'}
+     '66':'Une Vieille Habitude',
+     '67':'Le Chat-eau',
+     '68':'Le Pirate',
+     '69':'Cathulhu',
+     '70':'Seizenip',
+     '71':'Vingtnip'}
 
 var viewer = urlParams.get('viewer').toLowerCase()
 
@@ -204,7 +214,7 @@ async function Fetching()
 
   console.log("BON MATIN");
   console.log(Object.keys(states_dictionary2).length);
-  for (let i = 1; i <= 66; i++) {
+  for (let i = 1; i <= 71; i++) {
 
     if (i < 10) {
       znumber = '0' + i;

@@ -398,6 +398,36 @@
   --c66m1: #fac;
   --c66m2: #ddccaa;
   --c66mfront: url(https://k3t0warri0r-coder.github.io/assets/66m.png);
+  --c671: #fac;
+  --c672: #ddccaa;
+  --c67front: url(https://k3t0warri0r-coder.github.io/assets/67.png);
+  --c67m1: #fac;
+  --c67m2: #ddccaa;
+  --c67mfront: url(https://k3t0warri0r-coder.github.io/assets/67m.png);
+  --c681: #fac;
+  --c682: #ddccaa;
+  --c68front: url(https://k3t0warri0r-coder.github.io/assets/68.png);
+  --c68m1: #fac;
+  --c68m2: #ddccaa;
+  --c68mfront: url(https://k3t0warri0r-coder.github.io/assets/68m.png);
+  --c691: #fac;
+  --c692: #ddccaa;
+  --c69front: url(https://k3t0warri0r-coder.github.io/assets/69.png);
+  --c69m1: #fac;
+  --c69m2: #ddccaa;
+  --c69mfront: url(https://k3t0warri0r-coder.github.io/assets/69m.png);
+  --c701: #fac;
+  --c702: #ddccaa;
+  --c70front: url(https://k3t0warri0r-coder.github.io/assets/70.png);
+  --c70m1: #fac;
+  --c70m2: #ddccaa;
+  --c70mfront: url(https://k3t0warri0r-coder.github.io/assets/70m.png);
+  --c711: #fac;
+  --c712: #ddccaa;
+  --c71front: url(https://k3t0warri0r-coder.github.io/assets/71.png);
+  --c71m1: #fac;
+  --c71m2: #ddccaa;
+  --c71mfront: url(https://k3t0warri0r-coder.github.io/assets/71m.png);
 }
 
 .card {
@@ -1354,7 +1384,6 @@
   --color1: var(--c562);
   --front: var(--c56front);
 }
-
 .card.c57 {
   --color1: var(--c571);
   --color1: var(--c572);
@@ -1445,8 +1474,6 @@
   --color1: var(--c622);
   --front: var(--c62front);
 }
-
-
 .card.c63 {
   --color1: var(--c631);
   --color1: var(--c632);
@@ -1507,11 +1534,81 @@
   --color1: var(--c662);
   --front: var(--c66front);
 }
-
-
-
-
-
+.card.c67 {
+  --color1: var(--c671);
+  --color1: var(--c672);
+  --front: var(--c67front);
+}
+.card.c67m {
+  --color1: var(--c67m1);
+  --color1: var(--c67m2);
+  --front: var(--c67mfront);
+}
+.card2.c67 {
+  --color1: var(--c671);
+  --color1: var(--c672);
+  --front: var(--c67front);
+}
+.card.c68 {
+  --color1: var(--c681);
+  --color1: var(--c682);
+  --front: var(--c68front);
+}
+.card.c68m {
+  --color1: var(--c68m1);
+  --color1: var(--c68m2);
+  --front: var(--c68mfront);
+}
+.card2.c68 {
+  --color1: var(--c681);
+  --color1: var(--c682);
+  --front: var(--c68front);
+}
+.card.c69 {
+  --color1: var(--c691);
+  --color1: var(--c692);
+  --front: var(--c69front);
+}
+.card.c69m {
+  --color1: var(--c69m1);
+  --color1: var(--c69m2);
+  --front: var(--c69mfront);
+}
+.card2.c69 {
+  --color1: var(--c691);
+  --color1: var(--c692);
+  --front: var(--c69front);
+}
+.card.c70 {
+  --color1: var(--c701);
+  --color1: var(--c702);
+  --front: var(--c70front);
+}
+.card.c70m {
+  --color1: var(--c70m1);
+  --color1: var(--c70m2);
+  --front: var(--c70mfront);
+}
+.card2.c70 {
+  --color1: var(--c701);
+  --color1: var(--c702);
+  --front: var(--c70front);
+}
+.card.c71 {
+  --color1: var(--c711);
+  --color1: var(--c712);
+  --front: var(--c71front);
+}
+.card.c71m {
+  --color1: var(--c71m1);
+  --color1: var(--c71m2);
+  --front: var(--c71mfront);
+}
+.card2.c71 {
+  --color1: var(--c711);
+  --color1: var(--c712);
+  --front: var(--c71front);
+}
 
 
 
