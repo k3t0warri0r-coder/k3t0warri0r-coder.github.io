@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Ketarot - Top</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<main id=app>
+
+  <!--p>Please checkout the newer version of this; <a target="_top" href="https://codepen.io/simeydotme/pen/abYWJdX">https://codepen.io/simeydotme/pen/abYWJdX</a></p-->
+
+  <!--h1>Tarot Saucé</h1-->
+<style>
+//div.gallery {
+//  margin: 5px;
+//  border: 0px;
+//  float: left;
+//  width: 180px;
+//}
+
+//div.gallery img {
+//  width: 100%;
+//  height: auto;
+//}
+
+</style>
+  
+<h1 style="text-align: center;"><strong>Top 50 des collections</strong></h1>
+<div id="demo"></div>
+<script>
+
+const queryString = window.location.search;
+console.log(queryString);
+
+const urlParams = new URLSearchParams(queryString);
+
+//ref si requis
+var viewer = urlParams.get('viewer').toLowerCase()
+
+async function Fetching()
+{
+    //const response = await fetch("./collectioninfo/"+ viewer +".json");
+    const response = await fetch("./top50.txt");
+    const jsonData = await response.json();
+    //console.log(jsonData);
+    //console.log(Object.keys(jsonData));
+
+  console.log("BON MATIN");
+  text = '<p></p><table border="1" style="border-collapse: collapse; width: 100%;"><tbody>'
+  text += '<tr><td style="width: 20%; text-align: right;"><strong>Position</strong></td><td style="width: 20%; text-align: center;">'
+  text += '<strong>Saucier/&egrave;re</strong></td><td style="width: 20%; text-align: center;"><strong>Collection totale</strong></td>'
+  text += '<td style="width: 20%; text-align: center;"><strong>Foils</strong></td><td style="width: 20%; text-align: center;"><strong>Mythiques</strong></td></tr>'
+  for (let i = 1; i <= 50; i++) {
+    if (jsonData[i-1]["Username"] == viewer) {
+      text += '<tr><td style="width: 20%; text-align: right; background-color: #000C7B;">' + i.toString() + '</td>'
+      text += '<td style="width: 20%; text-align: center; background-color: #000C7B;">' + jsonData[i-1]["Username"] + '</td>'
+      text += '<td style="width: 20%; text-align: center; background-color: #000C7B;">' + jsonData[i-1]["Collection"].toString() + '</td>'
+      text += '<td style="width: 20%; text-align: center; background-color: #000C7B;">' + jsonData[i-1]["Collection-Foils"].toString() + '</td>'
+      text += '<td style="width: 20%; text-align: center; background-color: #000C7B;">' + jsonData[i-1]["Collection-Mythics"].toString() + '</td></tr>'
+    } else {
+      text += '<tr><td style="width: 20%; text-align: right;">' + i.toString() + '</td>'
+      text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Username"] + '</td>'
+      text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Collection"].toString() + '</td>'
+      text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Collection-Foils"].toString() + '</td>'
+      text += '<td style="width: 20%; text-align: center;">' + jsonData[i-1]["Collection-Mythics"].toString() + '</td></tr>'
+    }
+  }
+  text +=  '</tbody></table>';
+  document.getElementById("demo").innerHTML = text;
+}
+Fetching();
+
+</script>
+
+</main>
+</body>
+</html>
