@@ -1,6 +1,8 @@
 :root {
   --color1: rgb(0, 231, 255);
   --color2: rgb(255, 0, 231);
+  --carte1: #fac;
+  --carte2: #ddccaa;
   --back: url(https://k3t0warri0r-coder.github.io/assets/Oracle-back.png);
   --c011: #fac;
   --c012: #ddccaa;
@@ -539,1074 +541,1074 @@
 
 
 .card2.cback {
-  --color1: var(--c011);
-  --color1: var(--c012);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--back);
 }
 .card.c01 {
-  --color1: var(--c011);
-  --color1: var(--c012);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c01front);
 }
 .card.c01m {
-  --color1: var(--c01m1);
-  --color1: var(--c01m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c01mfront);
 }
 .card2.c01 {
-  --color1: var(--c011);
-  --color1: var(--c012);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c01front);
 }
 .card.c02 {
-  --color1: var(--c021);
-  --color1: var(--c022);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c02front);
 }
 .card.c02m {
-  --color1: var(--c02m1);
-  --color1: var(--c02m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c02mfront);
 }
 .card2.c02 {
-  --color1: var(--c021);
-  --color1: var(--c022);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c02front);
 }
 .card.c03 {
-  --color1: var(--c031);
-  --color1: var(--c032);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c03front);
 }
 .card.c03m {
-  --color1: var(--c03m1);
-  --color1: var(--c03m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c03mfront);
 }
 .card2.c03 {
-  --color1: var(--c031);
-  --color1: var(--c032);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c03front);
 }
 .card.c04 {
-  --color1: var(--c041);
-  --color1: var(--c042);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c04front);
 }
 .card.c04m {
-  --color1: var(--c04m1);
-  --color1: var(--c04m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c04mfront);
 }
 .card2.c04 {
-  --color1: var(--c041);
-  --color1: var(--c042);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c04front);
 }
 .card.c05 {
-  --color1: var(--c051);
-  --color1: var(--c052);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c05front);
 }
 .card.c05m {
-  --color1: var(--c05m1);
-  --color1: var(--c05m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c05mfront);
 }
 .card2.c05 {
-  --color1: var(--c051);
-  --color1: var(--c052);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c05front);
 }
 .card.c06 {
-  --color1: var(--c061);
-  --color1: var(--c062);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c06front);
 }
 .card.c06m {
-  --color1: var(--c06m1);
-  --color1: var(--c06m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c06mfront);
 }
 .card2.c06 {
-  --color1: var(--c061);
-  --color1: var(--c062);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c06front);
 }
 .card.c07 {
-  --color1: var(--c071);
-  --color1: var(--c072);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c07front);
 }
 .card.c07m {
-  --color1: var(--c07m1);
-  --color1: var(--c07m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c07mfront);
 }
 .card2.c07 {
-  --color1: var(--c071);
-  --color1: var(--c072);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c07front);
 }
 .card.c08 {
-  --color1: var(--c081);
-  --color1: var(--c082);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c08front);
 }
 .card.c08m {
-  --color1: var(--c08m1);
-  --color1: var(--c08m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c08mfront);
 }
 .card2.c08 {
-  --color1: var(--c081);
-  --color1: var(--c082);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c08front);
 }
 .card.c09 {
-  --color1: var(--c091);
-  --color1: var(--c092);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c09front);
 }
 .card.c09m {
-  --color1: var(--c09m1);
-  --color1: var(--c09m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c09mfront);
 }
 .card2.c09 {
-  --color1: var(--c091);
-  --color1: var(--c092);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c09front);
 }
 .card.c10 {
-  --color1: var(--c101);
-  --color1: var(--c102);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c10front);
 }
 .card.c10m {
-  --color1: var(--c10m1);
-  --color1: var(--c10m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c10mfront);
 }
 .card2.c10 {
-  --color1: var(--c101);
-  --color1: var(--c102);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c10front);
 }
 .card.c11 {
-  --color1: var(--c111);
-  --color1: var(--c112);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c11front);
 }
 .card.c11m {
-  --color1: var(--c11m1);
-  --color1: var(--c11m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c11mfront);
 }
 .card2.c11 {
-  --color1: var(--c111);
-  --color1: var(--c112);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c11front);
 }
 .card.c12 {
-  --color1: var(--c121);
-  --color1: var(--c122);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c12front);
 }
 .card.c12m {
-  --color1: var(--c12m1);
-  --color1: var(--c12m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c12mfront);
 }
 .card2.c12 {
-  --color1: var(--c121);
-  --color1: var(--c122);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c12front);
 }
 .card.c13 {
-  --color1: var(--c131);
-  --color1: var(--c132);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c13front);
 }
 .card.c13m {
-  --color1: var(--c13m1);
-  --color1: var(--c13m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c13mfront);
 }
 .card2.c13 {
-  --color1: var(--c131);
-  --color1: var(--c132);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c13front);
 }
 .card.c14 {
-  --color1: var(--c141);
-  --color1: var(--c142);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c14front);
 }
 .card.c14m {
-  --color1: var(--c14m1);
-  --color1: var(--c14m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c14mfront);
 }
 .card2.c14 {
-  --color1: var(--c141);
-  --color1: var(--c142);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c14front);
 }
 .card.c15 {
-  --color1: var(--c151);
-  --color1: var(--c152);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c15front);
 }
 .card.c15m {
-  --color1: var(--c15m1);
-  --color1: var(--c15m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c15mfront);
 }
 .card2.c15 {
-  --color1: var(--c151);
-  --color1: var(--c152);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c15front);
 }
 .card.c16 {
-  --color1: var(--c161);
-  --color1: var(--c162);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c16front);
 }
 .card.c16m {
-  --color1: var(--c16m1);
-  --color1: var(--c16m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c16mfront);
 }
 .card2.c16 {
-  --color1: var(--c161);
-  --color1: var(--c162);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c16front);
 }
 .card.c17 {
-  --color1: var(--c171);
-  --color1: var(--c172);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c17front);
 }
 .card.c17m {
-  --color1: var(--c17m1);
-  --color1: var(--c17m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c17mfront);
 }
 .card2.c17 {
-  --color1: var(--c171);
-  --color1: var(--c172);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c17front);
 }
 .card.c18 {
-  --color1: var(--c181);
-  --color1: var(--c182);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c18front);
 }
 .card.c18m {
-  --color1: var(--c18m1);
-  --color1: var(--c18m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c18mfront);
 }
 .card2.c18 {
-  --color1: var(--c181);
-  --color1: var(--c182);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c18front);
 }
 .card.c19 {
-  --color1: var(--c191);
-  --color1: var(--c192);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c19front);
 }
 .card.c19m {
-  --color1: var(--c19m1);
-  --color1: var(--c19m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c19mfront);
 }
 .card2.c19 {
-  --color1: var(--c191);
-  --color1: var(--c192);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c19front);
 }
 .card.c20 {
-  --color1: var(--c201);
-  --color1: var(--c202);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c20front);
 }
 .card.c20m {
-  --color1: var(--c20m1);
-  --color1: var(--c20m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c20mfront);
 }
 .card2.c20 {
-  --color1: var(--c201);
-  --color1: var(--c202);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c20front);
 }
 .card.c21 {
-  --color1: var(--c211);
-  --color1: var(--c212);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c21front);
 }
 .card.c21m {
-  --color1: var(--c21m1);
-  --color1: var(--c21m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c21mfront);
 }
 .card2.c21 {
-  --color1: var(--c211);
-  --color1: var(--c212);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c21front);
 }
 .card.c22 {
-  --color1: var(--c221);
-  --color1: var(--c222);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c22front);
 }
 .card.c22m {
-  --color1: var(--c22m1);
-  --color1: var(--c22m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c22mfront);
 }
 .card2.c22 {
-  --color1: var(--c221);
-  --color1: var(--c222);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c22front);
 }
 .card.c23 {
-  --color1: var(--c231);
-  --color1: var(--c232);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c23front);
 }
 .card.c23m {
-  --color1: var(--c23m1);
-  --color1: var(--c23m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c23mfront);
 }
 .card2.c23 {
-  --color1: var(--c231);
-  --color1: var(--c232);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c23front);
 }
 .card.c24 {
-  --color1: var(--c241);
-  --color1: var(--c242);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c24front);
 }
 .card.c24m {
-  --color1: var(--c24m1);
-  --color1: var(--c24m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c24mfront);
 }
 .card2.c24 {
-  --color1: var(--c241);
-  --color1: var(--c242);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c24front);
 }
 .card.c25 {
-  --color1: var(--c251);
-  --color1: var(--c252);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c25front);
 }
 .card.c25m {
-  --color1: var(--c25m1);
-  --color1: var(--c25m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c25mfront);
 }
 .card2.c25 {
-  --color1: var(--c251);
-  --color1: var(--c252);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c25front);
 }
 .card.c26 {
-  --color1: var(--c261);
-  --color1: var(--c262);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c26front);
 }
 .card.c26m {
-  --color1: var(--c26m1);
-  --color1: var(--c26m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c26mfront);
 }
 .card2.c26 {
-  --color1: var(--c261);
-  --color1: var(--c262);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c26front);
 }
 .card.c27 {
-  --color1: var(--c271);
-  --color1: var(--c272);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c27front);
 }
 .card.c27m {
-  --color1: var(--c27m1);
-  --color1: var(--c27m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c27mfront);
 }
 .card2.c27 {
-  --color1: var(--c271);
-  --color1: var(--c272);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c27front);
 }
 .card.c28 {
-  --color1: var(--c281);
-  --color1: var(--c282);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c28front);
 }
 .card.c28m {
-  --color1: var(--c28m1);
-  --color1: var(--c28m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c28mfront);
 }
 .card2.c28 {
-  --color1: var(--c281);
-  --color1: var(--c282);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c28front);
 }
 .card.c29 {
-  --color1: var(--c291);
-  --color1: var(--c292);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c29front);
 }
 .card.c29m {
-  --color1: var(--c29m1);
-  --color1: var(--c29m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c29mfront);
 }
 .card2.c29 {
-  --color1: var(--c291);
-  --color1: var(--c292);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c29front);
 }
 .card.c30 {
-  --color1: var(--c301);
-  --color1: var(--c302);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c30front);
 }
 .card.c30m {
-  --color1: var(--c30m1);
-  --color1: var(--c30m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c30mfront);
 }
 .card2.c30 {
-  --color1: var(--c301);
-  --color1: var(--c302);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c30front);
 }
 .card.c31 {
-  --color1: var(--c311);
-  --color1: var(--c312);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c31front);
 }
 .card.c31m {
-  --color1: var(--c31m1);
-  --color1: var(--c31m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c31mfront);
 }
 .card2.c31 {
-  --color1: var(--c311);
-  --color1: var(--c312);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c31front);
 }
 .card.c32 {
-  --color1: var(--c321);
-  --color1: var(--c322);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c32front);
 }
 .card.c32m {
-  --color1: var(--c32m1);
-  --color1: var(--c32m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c32mfront);
 }
 .card2.c32 {
-  --color1: var(--c321);
-  --color1: var(--c322);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c32front);
 }
 .card.c33 {
-  --color1: var(--c331);
-  --color1: var(--c332);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c33front);
 }
 .card.c33m {
-  --color1: var(--c33m1);
-  --color1: var(--c33m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c33mfront);
 }
 .card2.c33 {
-  --color1: var(--c331);
-  --color1: var(--c332);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c33front);
 }
 .card.c34 {
-  --color1: var(--c341);
-  --color1: var(--c342);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c34front);
 }
 .card.c34m {
-  --color1: var(--c34m1);
-  --color1: var(--c34m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c34mfront);
 }
 .card2.c34 {
-  --color1: var(--c341);
-  --color1: var(--c342);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c34front);
 }
 .card.c35 {
-  --color1: var(--c351);
-  --color1: var(--c352);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c35front);
 }
 .card.c35m {
-  --color1: var(--c35m1);
-  --color1: var(--c35m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c35mfront);
 }
 .card2.c35 {
-  --color1: var(--c351);
-  --color1: var(--c352);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c35front);
 }
 .card.c36 {
-  --color1: var(--c361);
-  --color1: var(--c362);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c36front);
 }
 .card.c36m {
-  --color1: var(--c36m1);
-  --color1: var(--c36m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c36mfront);
 }
 .card2.c36 {
-  --color1: var(--c361);
-  --color1: var(--c362);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c36front);
 }
 .card.c37 {
-  --color1: var(--c371);
-  --color1: var(--c372);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c37front);
 }
 .card.c37m {
-  --color1: var(--c37m1);
-  --color1: var(--c37m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c37mfront);
 }
 .card2.c37 {
-  --color1: var(--c371);
-  --color1: var(--c372);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c37front);
 }
 .card.c38 {
-  --color1: var(--c381);
-  --color1: var(--c382);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c38front);
 }
 .card.c38m {
-  --color1: var(--c38m1);
-  --color1: var(--c38m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c38mfront);
 }
 .card2.c38 {
-  --color1: var(--c381);
-  --color1: var(--c382);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c38front);
 }
 .card.c39 {
-  --color1: var(--c391);
-  --color1: var(--c392);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c39front);
 }
 .card.c39m {
-  --color1: var(--c39m1);
-  --color1: var(--c39m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c39mfront);
 }
 .card2.c39 {
-  --color1: var(--c391);
-  --color1: var(--c392);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c39front);
 }
 .card.c40 {
-  --color1: var(--c401);
-  --color1: var(--c402);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c40front);
 }
 .card.c40m {
-  --color1: var(--c40m1);
-  --color1: var(--c40m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c40mfront);
 }
 .card2.c40 {
-  --color1: var(--c401);
-  --color1: var(--c402);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c40front);
 }
 .card.c41 {
-  --color1: var(--c411);
-  --color1: var(--c412);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c41front);
 }
 .card.c41m {
-  --color1: var(--c41m1);
-  --color1: var(--c41m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c41mfront);
 }
 .card2.c41 {
-  --color1: var(--c411);
-  --color1: var(--c412);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c41front);
 }
 .card.c42 {
-  --color1: var(--c421);
-  --color1: var(--c422);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c42front);
 }
 .card.c42m {
-  --color1: var(--c42m1);
-  --color1: var(--c42m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c42mfront);
 }
 .card2.c42 {
-  --color1: var(--c421);
-  --color1: var(--c422);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c42front);
 }
 .card.c43 {
-  --color1: var(--c431);
-  --color1: var(--c432);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c43front);
 }
 .card.c43m {
-  --color1: var(--c43m1);
-  --color1: var(--c43m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c43mfront);
 }
 .card2.c43 {
-  --color1: var(--c431);
-  --color1: var(--c432);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c43front);
 }
 .card.c44 {
-  --color1: var(--c441);
-  --color1: var(--c442);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c44front);
 }
 .card.c44m {
-  --color1: var(--c44m1);
-  --color1: var(--c44m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c44mfront);
 }
 .card2.c44 {
-  --color1: var(--c441);
-  --color1: var(--c442);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c44front);
 }
 .card.c45 {
-  --color1: var(--c451);
-  --color1: var(--c452);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c45front);
 }
 .card.c45m {
-  --color1: var(--c45m1);
-  --color1: var(--c45m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c45mfront);
 }
 .card2.c45 {
-  --color1: var(--c451);
-  --color1: var(--c452);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c45front);
 }
 .card.c46 {
-  --color1: var(--c461);
-  --color1: var(--c462);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c46front);
 }
 .card.c46m {
-  --color1: var(--c46m1);
-  --color1: var(--c46m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c46mfront);
 }
 .card2.c46 {
-  --color1: var(--c461);
-  --color1: var(--c462);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c46front);
 }
 .card.c47 {
-  --color1: var(--c471);
-  --color1: var(--c472);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c47front);
 }
 .card.c47m {
-  --color1: var(--c47m1);
-  --color1: var(--c47m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c47mfront);
 }
 .card2.c47 {
-  --color1: var(--c471);
-  --color1: var(--c472);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c47front);
 }
 .card.c48 {
-  --color1: var(--c481);
-  --color1: var(--c482);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c48front);
 }
 .card.c48m {
-  --color1: var(--c48m1);
-  --color1: var(--c48m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c48mfront);
 }
 .card2.c48 {
-  --color1: var(--c481);
-  --color1: var(--c482);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c48front);
 }
 .card.c49 {
-  --color1: var(--c491);
-  --color1: var(--c492);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c49front);
 }
 .card.c49m {
-  --color1: var(--c49m1);
-  --color1: var(--c49m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c49mfront);
 }
 .card2.c49 {
-  --color1: var(--c491);
-  --color1: var(--c492);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c49front);
 }
 .card.c50 {
-  --color1: var(--c501);
-  --color1: var(--c502);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c50front);
 }
 .card.c50m {
-  --color1: var(--c50m1);
-  --color1: var(--c50m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c50mfront);
 }
 .card2.c50 {
-  --color1: var(--c501);
-  --color1: var(--c502);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c50front);
 }
 .card.c51 {
-  --color1: var(--c511);
-  --color1: var(--c512);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c51front);
 }
 .card.c51m {
-  --color1: var(--c51m1);
-  --color1: var(--c51m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c51mfront);
 }
 .card2.c51 {
-  --color1: var(--c511);
-  --color1: var(--c512);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c51front);
 }
 .card.c52 {
-  --color1: var(--c521);
-  --color1: var(--c522);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c52front);
 }
 .card.c52m {
-  --color1: var(--c52m1);
-  --color1: var(--c52m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c52mfront);
 }
 .card2.c52 {
-  --color1: var(--c521);
-  --color1: var(--c522);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c52front);
 }
 .card.c53 {
-  --color1: var(--c531);
-  --color1: var(--c532);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c53front);
 }
 .card.c53m {
-  --color1: var(--c53m1);
-  --color1: var(--c53m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c53mfront);
 }
 .card2.c53 {
-  --color1: var(--c531);
-  --color1: var(--c532);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c53front);
 }
 .card.c54 {
-  --color1: var(--c541);
-  --color1: var(--c542);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c54front);
 }
 .card.c54m {
-  --color1: var(--c54m1);
-  --color1: var(--c54m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c54mfront);
 }
 .card2.c54 {
-  --color1: var(--c541);
-  --color1: var(--c542);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c54front);
 }
 .card.c55 {
-  --color1: var(--c551);
-  --color1: var(--c552);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c55front);
 }
 .card.c55m {
-  --color1: var(--c55m1);
-  --color1: var(--c55m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c55mfront);
 }
 .card2.c55 {
-  --color1: var(--c551);
-  --color1: var(--c552);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c55front);
 }
 
 .card.c56 {
-  --color1: var(--c561);
-  --color1: var(--c562);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c56front);
 }
 .card.c56m {
-  --color1: var(--c56m1);
-  --color1: var(--c56m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c56mfront);
 }
 .card2.c56 {
-  --color1: var(--c561);
-  --color1: var(--c562);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c56front);
 }
 .card.c57 {
-  --color1: var(--c571);
-  --color1: var(--c572);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c57front);
 }
 .card.c57m {
-  --color1: var(--c57m1);
-  --color1: var(--c57m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c57mfront);
 }
 .card2.c57 {
-  --color1: var(--c571);
-  --color1: var(--c572);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c57front);
 }
 .card.c58 {
-  --color1: var(--c581);
-  --color1: var(--c582);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c58front);
 }
 .card.c58m {
-  --color1: var(--c58m1);
-  --color1: var(--c58m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c58mfront);
 }
 .card2.c58 {
-  --color1: var(--c581);
-  --color1: var(--c582);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c58front);
 }
 .card.c59 {
-  --color1: var(--c591);
-  --color1: var(--c592);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c59front);
 }
 .card.c59m {
-  --color1: var(--c59m1);
-  --color1: var(--c59m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c59mfront);
 }
 .card2.c59 {
-  --color1: var(--c591);
-  --color1: var(--c592);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c59front);
 }
 .card.c60 {
-  --color1: var(--c601);
-  --color1: var(--c602);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c60front);
 }
 .card.c60m {
-  --color1: var(--c60m1);
-  --color1: var(--c60m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c60mfront);
 }
 .card2.c60 {
-  --color1: var(--c601);
-  --color1: var(--c602);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c60front);
 }
 .card.c61 {
-  --color1: var(--c611);
-  --color1: var(--c612);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c61front);
 }
 .card.c61m {
-  --color1: var(--c61m1);
-  --color1: var(--c61m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c61mfront);
 }
 .card2.c61 {
-  --color1: var(--c611);
-  --color1: var(--c612);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c61front);
 }
 .card.c62 {
-  --color1: var(--c621);
-  --color1: var(--c622);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c62front);
 }
 .card.c62m {
-  --color1: var(--c62m1);
-  --color1: var(--c62m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c62mfront);
 }
 .card2.c62 {
-  --color1: var(--c621);
-  --color1: var(--c622);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c62front);
 }
 .card.c63 {
-  --color1: var(--c631);
-  --color1: var(--c632);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c63front);
 }
 .card.c63m {
-  --color1: var(--c63m1);
-  --color1: var(--c63m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c63mfront);
 }
 .card2.c63 {
-  --color1: var(--c631);
-  --color1: var(--c632);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c63front);
 }
 .card.c64 {
-  --color1: var(--c641);
-  --color1: var(--c642);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c64front);
 }
 .card.c64m {
-  --color1: var(--c64m1);
-  --color1: var(--c64m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c64mfront);
 }
 .card2.c64 {
-  --color1: var(--c641);
-  --color1: var(--c642);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c64front);
 }
 .card.c65 {
-  --color1: var(--c651);
-  --color1: var(--c652);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c65front);
 }
 .card.c65m {
-  --color1: var(--c65m1);
-  --color1: var(--c65m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c65mfront);
 }
 .card2.c65 {
-  --color1: var(--c651);
-  --color1: var(--c652);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c65front);
 }
 .card.c66 {
-  --color1: var(--c661);
-  --color1: var(--c662);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c66front);
 }
 .card.c66m {
-  --color1: var(--c66m1);
-  --color1: var(--c66m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c66mfront);
 }
 .card2.c66 {
-  --color1: var(--c661);
-  --color1: var(--c662);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c66front);
 }
 .card.c67 {
-  --color1: var(--c671);
-  --color1: var(--c672);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c67front);
 }
 .card.c67m {
-  --color1: var(--c67m1);
-  --color1: var(--c67m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c67mfront);
 }
 .card2.c67 {
-  --color1: var(--c671);
-  --color1: var(--c672);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c67front);
 }
 .card.c68 {
-  --color1: var(--c681);
-  --color1: var(--c682);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c68front);
 }
 .card.c68m {
-  --color1: var(--c68m1);
-  --color1: var(--c68m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c68mfront);
 }
 .card2.c68 {
-  --color1: var(--c681);
-  --color1: var(--c682);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c68front);
 }
 .card.c69 {
-  --color1: var(--c691);
-  --color1: var(--c692);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c69front);
 }
 .card.c69m {
-  --color1: var(--c69m1);
-  --color1: var(--c69m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c69mfront);
 }
 .card2.c69 {
-  --color1: var(--c691);
-  --color1: var(--c692);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c69front);
 }
 .card.c70 {
-  --color1: var(--c701);
-  --color1: var(--c702);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c70front);
 }
 .card.c70m {
-  --color1: var(--c70m1);
-  --color1: var(--c70m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c70mfront);
 }
 .card2.c70 {
-  --color1: var(--c701);
-  --color1: var(--c702);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c70front);
 }
 .card.c71 {
-  --color1: var(--c711);
-  --color1: var(--c712);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c71front);
 }
 .card.c71m {
-  --color1: var(--c71m1);
-  --color1: var(--c71m2);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c71mfront);
 }
 .card2.c71 {
-  --color1: var(--c711);
-  --color1: var(--c712);
+  --color1: var(--carte1);
+  --color1: var(--carte2);
   --front: var(--c71front);
 }
 
