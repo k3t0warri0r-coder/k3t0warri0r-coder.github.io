@@ -209,10 +209,10 @@ async function Fetching()
     const response = await fetch("./collectioninfo/"+ viewer +".json");
     const jsonData = await response.json();
     //console.log(jsonData);
-    console.log(jsonData["La mort"]);
+    //console.log(jsonData["La mort"]);
     //console.log(Object.keys(jsonData));
 
-  console.log("BON MATIN");
+  console.log("Derniere mise à jour: 2025-12-01");
   console.log(Object.keys(states_dictionary2).length);
   for (let i = 1; i <= Object.keys(states_dictionary2).length; i++) {
 
@@ -222,7 +222,6 @@ async function Fetching()
       znumber = i.toString();
     }
 
-    console.log("BONJOUR");
     if (jsonData[states_dictionary2[znumber]] !== undefined) { 
         console.log("Section 1");
         if (jsonData[states_dictionary2[znumber]][2] > 0) {
