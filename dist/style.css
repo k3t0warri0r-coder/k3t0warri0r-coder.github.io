@@ -150,6 +150,8 @@
   --c72mfront: url(https://k3t0warri0r-coder.github.io/assets/72m.png);
   --c73front: url(https://k3t0warri0r-coder.github.io/assets/73.png);
   --c73mfront: url(https://k3t0warri0r-coder.github.io/assets/73m.png);
+  --c74front: url(https://k3t0warri0r-coder.github.io/assets/74.png);
+  --c74mfront: url(https://k3t0warri0r-coder.github.io/assets/74m.png);
 }
 
 .card {
@@ -1359,6 +1361,21 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c73front);
+}
+.card.c74 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c74front);
+}
+.card.c74m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c74mfront);
+}
+.card2.c74 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c74front);
 }
 
 
