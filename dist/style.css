@@ -152,6 +152,10 @@
   --c73mfront: url(https://k3t0warri0r-coder.github.io/assets/73m.png);
   --c74front: url(https://k3t0warri0r-coder.github.io/assets/74.png);
   --c74mfront: url(https://k3t0warri0r-coder.github.io/assets/74m.png);
+  --c75front: url(https://k3t0warri0r-coder.github.io/assets/75.png);
+  --c75mfront: url(https://k3t0warri0r-coder.github.io/assets/75m.png);
+  --c76front: url(https://k3t0warri0r-coder.github.io/assets/76.png);
+  --c76mfront: url(https://k3t0warri0r-coder.github.io/assets/76m.png);
 }
 
 .card {
@@ -1376,6 +1380,36 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c74front);
+}
+.card.c75 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c75front);
+}
+.card.c75m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c75mfront);
+}
+.card2.c75 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c75front);
+}
+.card.c76 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c76front);
+}
+.card.c76m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c76mfront);
+}
+.card2.c76 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c76front);
 }
 
 
