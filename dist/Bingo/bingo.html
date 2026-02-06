@@ -2,90 +2,87 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Bingo Card Template</title>
+  <title>Bingo Card With Background</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      text-align: center;
+      display: flex;
+      justify-content: center;
+      margin-top: 30px;
     }
 
-    .bingo-container {
-      display: inline-block;
-      margin-top: 20px;
-    }
-
-    .bingo-title {
-      font-size: 48px;
-      font-weight: bold;
-      letter-spacing: 10px;
-      margin-bottom: 10px;
+    .bingo-wrapper {
+      position: relative;
+      width: 600px;
+      height: 750px;
+      background-image: url("YOUR-IMAGE-FILENAME.jpeg");
+      background-size: cover;
+      background-position: center;
     }
 
     .bingo-grid {
+      position: absolute;
+      top: 150px; /* adjust to align with your card */
+      left: 50px; /* adjust to align with your card */
+      width: 500px;
+      height: 500px;
       display: grid;
-      grid-template-columns: repeat(5, 120px);
-      grid-template-rows: repeat(5, 120px);
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-rows: repeat(5, 1fr);
       gap: 4px;
     }
 
     .bingo-cell {
-      border: 2px solid #1f3b70;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 16px;
-      padding: 5px;
-      box-sizing: border-box;
-      background-color: #ffffff;
     }
 
     .bingo-cell input {
       width: 100%;
+      height: 100%;
       border: none;
+      background: rgba(255, 255, 255, 0.7);
       text-align: center;
-      font-size: 14px;
+      font-size: 18px;
       font-family: inherit;
     }
 
     .bingo-cell input:focus {
       outline: none;
+      background: rgba(255, 255, 255, 0.9);
     }
   </style>
 </head>
 <body>
 
-  <div class="bingo-container">
-    <div class="bingo-title">BINGO</div>
+  <div class="bingo-wrapper">
     <div class="bingo-grid">
-      <!-- Row 1 -->
+      <!-- 25 squares -->
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
 
-      <!-- Row 2 -->
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
 
-      <!-- Row 3 -->
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
 
-      <!-- Row 4 -->
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
 
-      <!-- Row 5 -->
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
       <div class="bingo-cell"><input type="text" value="square text"></div>
