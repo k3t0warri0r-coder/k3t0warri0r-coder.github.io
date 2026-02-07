@@ -49,6 +49,23 @@
       font-family: inherit;
     }
 
+    .bingo-cell textarea {
+      width: 100%;
+      height: 100%;
+      border: none;
+      background: transparent;
+      resize: none;        /* prevents dragging to resize */
+      text-align: center;
+      font-size: 18px;
+      font-family: inherit;
+      line-height: 1.1;    /* tweak for nicer wrapping */
+      padding: 0;
+    }
+
+    .bingo-cell textarea:focus {
+      outline: none;
+      background: rgba(255, 255, 255, 0.2);
+    }
     .bingo-cell input:focus {
       outline: none;
       background: rgba(255, 255, 255, 0.2);
