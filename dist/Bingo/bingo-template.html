@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Custom Bingo Card</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+    height: 100vh;
+  }
+
+  .bingo-wrapper {
+    position: relative;
+    width: 756px;   /* adjust to match your image ratio */
+    height: 900px;  /* adjust to match your image ratio */
+    background-image: url("./blank%20bingo%20card.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bingo-grid {
+    position: absolute;
+    left: 50%;
+    top: 57%;
+    transform: translate(-50%, -50%);
+    width: 92%;     /* adjust to align grid with image */
+    height: 79%;    /* adjust to align grid with image */
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+
+  .bingo-cell {
+    padding: 9px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+  }
+
+  .bingo-cell {
+    position: relative;
+  }
+
+  .stamp {
+    position: absolute;
+    inset: 0;
+    background-image: url("./squirrel-stamp.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.45; /* adjust transparency */
+    pointer-events: none;
+  }
+
+</style>
+</head>
+<body>
+
+<div class="bingo-wrapper">
+  <div class="bingo-grid">
+    <!-- Fill these with your custom text -->
+    <div class="bingo-cell">B1</div>
+    <div class="bingo-cell">I1</div>
+    <div class="bingo-cell">N1</div>
+    <div class="bingo-cell">G1</div>
+    <div class="bingo-cell">O1</div>
+
+    <div class="bingo-cell">B2</div>
+    <div class="bingo-cell">I2</div>
+    <div class="bingo-cell">N2</div>
+    <div class="bingo-cell">G2</div>
+    <div class="bingo-cell">O2</div>
+
+    <div class="bingo-cell">B3</div>
+    <div class="bingo-cell">I3</div>
+    <div class="bingo-cell">N3</div>
+    <div class="bingo-cell">G3</div>
+    <div class="bingo-cell">O3</div>
+
+    <div class="bingo-cell">B4</div>
+    <div class="bingo-cell">I4</div>
+    <div class="bingo-cell">N4</div>
+    <div class="bingo-cell">G4</div>
+    <div class="bingo-cell">O4</div>
+
+    <div class="bingo-cell">B5</div>
+    <div class="bingo-cell">I5</div>
+    <div class="bingo-cell">N5</div>
+    <div class="bingo-cell">G5</div>
+    <div class="bingo-cell">O5</div>
+  </div>
+</div>
+
+</body>
+</html>
