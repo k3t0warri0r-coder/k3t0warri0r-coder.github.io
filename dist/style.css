@@ -160,6 +160,16 @@
   --c77mfront: url(https://k3t0warri0r-coder.github.io/assets/77m.png);
   --c78front: url(https://k3t0warri0r-coder.github.io/assets/78.png);
   --c78mfront: url(https://k3t0warri0r-coder.github.io/assets/78m.png);
+  --c79front: url(https://k3t0warri0r-coder.github.io/assets/79.png);
+  --c79mfront: url(https://k3t0warri0r-coder.github.io/assets/79m.png);
+  --c80front: url(https://k3t0warri0r-coder.github.io/assets/80.png);
+  --c80mfront: url(https://k3t0warri0r-coder.github.io/assets/80m.png);
+  --c81front: url(https://k3t0warri0r-coder.github.io/assets/81.png);
+  --c81mfront: url(https://k3t0warri0r-coder.github.io/assets/81m.png);
+  --c82front: url(https://k3t0warri0r-coder.github.io/assets/82.png);
+  --c82mfront: url(https://k3t0warri0r-coder.github.io/assets/82m.png);
+  --c83front: url(https://k3t0warri0r-coder.github.io/assets/83.png);
+  --c83mfront: url(https://k3t0warri0r-coder.github.io/assets/83m.png);
 }
 
 .card {
@@ -1444,6 +1454,81 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c78front);
+}
+.card.c79 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c79front);
+}
+.card.c79m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c79mfront);
+}
+.card2.c79 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c79front);
+}
+.card.c80 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c80front);
+}
+.card.c80m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c80mfront);
+}
+.card2.c80 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c80front);
+}
+.card.c81 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c81front);
+}
+.card.c81m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c81mfront);
+}
+.card2.c81 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c81front);
+}
+.card.c82 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c82front);
+}
+.card.c82m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c82mfront);
+}
+.card2.c82 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c82front);
+}
+.card.c83 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c83front);
+}
+.card.c83m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c83mfront);
+}
+.card2.c83 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c83front);
 }
 
 
