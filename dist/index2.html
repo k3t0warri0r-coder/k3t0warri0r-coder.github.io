@@ -238,13 +238,13 @@ async function Fetching()
 
     if (jsonData[states_dictionary2[znumber]] !== undefined) { 
         console.log("Section 1"+jsonData[states_dictionary2[znumber]].toString());
-        if (jsonData[states_dictionary2[znumber]] > 0) {
+        if (jsonData[states_dictionary2[znumber]][2] > 0) {
             console.log("Section 1.1");
             text += '<div class="three-d-wrapper">';
             text += '<div class="card c' + znumber + 'm animated"></div>'
             text += '</div>';
         }
-        else if (jsonData[states_dictionary2[znumber]] > 0) {
+        else if (jsonData[states_dictionary2[znumber]][1] > 0) {
             console.log("Section 1.2");
             text += '<div class="three-d-wrapper">';
             text += '<div class="card c' + znumber + ' animated"></div>'
