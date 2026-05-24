@@ -170,6 +170,14 @@
   --c82mfront: url(https://k3t0warri0r-coder.github.io/assets/82m.png);
   --c83front: url(https://k3t0warri0r-coder.github.io/assets/83.png);
   --c83mfront: url(https://k3t0warri0r-coder.github.io/assets/83m.png);
+  --c84front: url(https://k3t0warri0r-coder.github.io/assets/84.png);
+  --c84mfront: url(https://k3t0warri0r-coder.github.io/assets/84m.png);
+  --c85front: url(https://k3t0warri0r-coder.github.io/assets/85.png);
+  --c85mfront: url(https://k3t0warri0r-coder.github.io/assets/85m.png);
+  --c86front: url(https://k3t0warri0r-coder.github.io/assets/86.png);
+  --c86mfront: url(https://k3t0warri0r-coder.github.io/assets/86m.png);
+  --c87front: url(https://k3t0warri0r-coder.github.io/assets/87.png);
+  --c87mfront: url(https://k3t0warri0r-coder.github.io/assets/87m.png);
 }
 
 .card {
@@ -1529,6 +1537,66 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c83front);
+}
+.card.c84 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c84front);
+}
+.card.c84m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c84mfront);
+}
+.card2.c84 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c84front);
+}
+.card.c85 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c85front);
+}
+.card.c85m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c85mfront);
+}
+.card2.c85 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c85front);
+}
+.card.c86 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c86front);
+}
+.card.c86m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c86mfront);
+}
+.card2.c86 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c86front);
+}
+.card.c87 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c87front);
+}
+.card.c87m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c87mfront);
+}
+.card2.c87 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c87front);
 }
 
 
