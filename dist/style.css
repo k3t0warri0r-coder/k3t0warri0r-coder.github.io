@@ -178,6 +178,12 @@
   --c86mfront: url(https://k3t0warri0r-coder.github.io/assets/86m.png);
   --c87front: url(https://k3t0warri0r-coder.github.io/assets/87.png);
   --c87mfront: url(https://k3t0warri0r-coder.github.io/assets/87m.png);
+  --c88front: url(https://k3t0warri0r-coder.github.io/assets/88.png);
+  --c88mfront: url(https://k3t0warri0r-coder.github.io/assets/88m.png);
+  --c89front: url(https://k3t0warri0r-coder.github.io/assets/89.png);
+  --c89mfront: url(https://k3t0warri0r-coder.github.io/assets/89m.png);
+  --c90front: url(https://k3t0warri0r-coder.github.io/assets/90.png);
+  --c90mfront: url(https://k3t0warri0r-coder.github.io/assets/90m.png);
 }
 
 .card {
@@ -1597,6 +1603,51 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c87front);
+}
+.card.c88 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c88front);
+}
+.card.c88m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c88mfront);
+}
+.card2.c88 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c88front);
+}
+.card.c89 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c89front);
+}
+.card.c89m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c89mfront);
+}
+.card2.c89 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c89front);
+}
+.card.c90 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c90front);
+}
+.card.c90m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c90mfront);
+}
+.card2.c90 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c90front);
 }
 
 
