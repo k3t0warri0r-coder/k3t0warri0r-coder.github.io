@@ -184,6 +184,8 @@
   --c89mfront: url(https://k3t0warri0r-coder.github.io/assets/89m.png);
   --c90front: url(https://k3t0warri0r-coder.github.io/assets/90.png);
   --c90mfront: url(https://k3t0warri0r-coder.github.io/assets/90m.png);
+  --c91front: url(https://k3t0warri0r-coder.github.io/assets/91.png);
+  --c91mfront: url(https://k3t0warri0r-coder.github.io/assets/91m.png);
 }
 
 .card {
@@ -1648,6 +1650,21 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c90front);
+}
+.card.c91 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c91front);
+}
+.card.c91m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c91mfront);
+}
+.card2.c91 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c91front);
 }
 
 
