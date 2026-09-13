@@ -3,7 +3,7 @@ Acturiens
 Âme.s
 Anges
 Boudha
-Colère
+Colère / Mépris
 Common law
 Créateur/Dieu
 Cristal/Cristaux
@@ -85,9 +85,8 @@ Vie.s antérieure.s
 (Turbo) cancer
 Brassage de cartes
 Canalisation
-CHAT
 Convoi
-Écureuil
+Écureuil / Chat
 Fond sonore trop fort
 Grand-remplacement
 Keto est brisé
@@ -101,6 +100,6 @@ Toile bizarre
 Pseudo science
 Techno baraguouinage
 L'univers
-Vicimisation
+Victimisation
 Massacrer l'Anglais
 Yeux fermés 5s+
