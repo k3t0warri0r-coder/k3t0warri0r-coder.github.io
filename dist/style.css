@@ -194,6 +194,8 @@
   --c94mfront: url(https://k3t0warri0r-coder.github.io/assets/94m.png);
   --c95front: url(https://k3t0warri0r-coder.github.io/assets/95.png);
   --c95mfront: url(https://k3t0warri0r-coder.github.io/assets/95m.png);
+  --c96front: url(https://k3t0warri0r-coder.github.io/assets/96.png);
+  --c96mfront: url(https://k3t0warri0r-coder.github.io/assets/96m.png);
 }
 
 .card {
@@ -1733,6 +1735,21 @@
   --color1: var(--carte1);
   --color1: var(--carte2);
   --front: var(--c95front);
+}
+.card.c96 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c96front);
+}
+.card.c96m {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c96mfront);
+}
+.card2.c96 {
+  --color1: var(--carte1);
+  --color1: var(--carte2);
+  --front: var(--c96front);
 }
 
 
